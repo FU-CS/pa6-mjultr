@@ -34,6 +34,11 @@ interface Heap {
      */
     int peek();
 
+
+
+
+
+
     /**
      * Returns the size of the heap. 
      * The size is the number of elements / nodes in the heap
@@ -47,10 +52,21 @@ interface Heap {
      */
     boolean isEmpty();
 
+
+
+
+
+
     /** 
      * Prints the heap in level order
      */
     void print();
+
+
+
+
+
+
 
     /**
      * Sorts an unsorted array using a heap
